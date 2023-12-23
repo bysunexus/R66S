@@ -5,6 +5,8 @@ on:
   schedule:
     - cron: 0 3 * * *
 
+permissions: write-all
+
 jobs:
   Cleaning:
     runs-on: ubuntu-22.04
